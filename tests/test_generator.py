@@ -5,6 +5,8 @@ class TestProductNameGenerator(unittest.TestCase):
     def test_generate_product_name(self):
         # Test simple concatenation style
         name = generate_product_name(Style.SIMPLE_CONCAT)
+        print(f"Generated name: {name}")
+        print(f"Length of name: {len(name.split())}")
         self.assertTrue(len(name.split()) == 2)
 
         # Test hyphenation style

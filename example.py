@@ -1,11 +1,3 @@
-# product generator
-
-## What can do?
-- Make a product name automatically
-
-# How To Usage ?
-
-```python
 from product_generator import generate_product_name, Style
 
 # Generate a product name using the simple concatenation style
@@ -26,4 +18,3 @@ print(f"Capitalization Style: {capitalization_name}")
 
 # Generate a product name using the random capitalization style
 random_capitalization_name = generate_product_name(Style.RANDOM_CAPITALIZATION)
-```

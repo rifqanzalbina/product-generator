@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: productgen
+Version: 0.0.1
+Summary: Product generator
+Author-email: rifqanzalbina <zalbinarifqan19@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/rifqanzalbina/product-generator
+Project-URL: Bug Tracker, https://github.com/rifqanzalbina/product-generator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Indonesian
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: nltk>=3.6.0
+Requires-Dist: pandas>=1.0.0
+
+# product generator
+
+## What can do?
+- Make a product name automatically
