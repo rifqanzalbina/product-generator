@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "productgen"
+version = "0.0.1"
+description = "Analisis statistik teks Bahasa Indonesia"
+readme = "README.md"
+authors = [
+    {name = "rifqanzalbina", email = "zalbinarifqan19@gmail.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: Indonesian",
+    "Topic :: Text Processing :: Linguistic",
+]
+requires-python = ">=3.6"
+dependencies = [
+    "nltk>=3.6.0",
+    "pandas>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/rifqanzalbina/textstat_id"
+"Bug Tracker" = "https://github.com/rifqanzalbina/textstat_id/issues"
+
+[tool.setuptools]
+license-files = []
+packages = ["secure-delete"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"product-generator" = [""]
