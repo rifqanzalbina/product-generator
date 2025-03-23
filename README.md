@@ -1,7 +1,16 @@
 # product generator
 
+## Install 
+
+```python
+pip install productgen
+```
+
+
 ## What can do?
 - Make a product name automatically
+
+
 
 # How To Usage ?
 
