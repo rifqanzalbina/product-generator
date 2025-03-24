@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+productgen/__init__.py
+productgen/generator.py
+productgen.egg-info/PKG-INFO
+productgen.egg-info/SOURCES.txt
+productgen.egg-info/dependency_links.txt
+productgen.egg-info/requires.txt
+productgen.egg-info/top_level.txt
+productgen/data/marketing_taglines.json
+productgen/data/product_brands.json
+productgen/data/product_categories.json
+tests/test_generator.py

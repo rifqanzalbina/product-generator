@@ -1,3 +1,5 @@
 include LICENSE
 include README.md
-recursive-include product-generator *.py
+recursive-include productgen data/ *.py
+recursive-include productgen data/ *.json
+recursive-include productgen *.py

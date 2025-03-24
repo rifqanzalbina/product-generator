@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "productgen"
-version = "0.0.1"
+version = "0.0.4"
 description = "Product generator"
 readme = "README.md"
 authors = [
@@ -30,6 +30,6 @@ Homepage = "https://github.com/rifqanzalbina/product-generator"
 
 [tool.setuptools]
 license-files = []
-packages = ["product_generator"]
+packages = ["productgen"]
 include-package-data = true
 

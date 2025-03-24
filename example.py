@@ -1,20 +1,11 @@
-from product_generator import generate_product_name, Style
+from productgen.generator import generate_product_name, Style
 
-# Generate a product name using the simple concatenation style
-simple_concat_name = generate_product_name(Style.SIMPLE_CONCAT)
-print(f"Simple Concatenation Style: {simple_concat_name}")
+def main():
+    product_1 = generate_product_name(Style.SIMPLE_CONCAT)
+    print("Contoh nama produk:", product_1)
 
-# Generate a product name using the hyphenation style
-hyphenation_name = generate_product_name(Style.HYPHENATION)
-print(f"Hyphenation Style: {hyphenation_name}")
+    product_2 = generate_product_name(Style.TITLE_CASE, brand="MyBrand", use_suffix=True, use_tagline=True)
+    print("Contoh nama produk dengan brand, suffix, dan tagline:", product_2)
 
-# Generate a product name using the title case style
-title_case_name = generate_product_name(Style.TITLE_CASE)
-print(f"Title Case Style: {title_case_name}")
-
-# Generate a product name using the capitalization style
-capitalization_name = generate_product_name(Style.CAPITALIZATION)
-print(f"Capitalization Style: {capitalization_name}")
-
-# Generate a product name using the random capitalization style
-random_capitalization_name = generate_product_name(Style.RANDOM_CAPITALIZATION)
+if __name__ == "__main__":
+    main()

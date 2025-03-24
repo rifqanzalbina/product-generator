@@ -1,0 +1,22 @@
+{
+    "category" : {
+        "Electronics": ["Smartphones", "Laptops", "Tablets", "Headphones", "Cameras"],
+        "Clothing": ["T-Shirts", "Pants", "Shirts", "Jackets", "Hats"],
+        "Home & Garden": ["Furniture", "Kitchenware", "Decor", "Outdoor", "Lighting"],
+        "Books": ["Fiction", "Non-Fiction", "Children", "Mystery", "Sci-Fi"],
+        "Sports": ["Football", "Basketball", "Tennis", "Golf", "Cycling"],
+        "Vehicles": ["Cars", "Motorcycles", "Bicycles", "Scooters", "Trucks"],
+        "Beauty & Personal Care": ["Makeup", "Skincare", "Haircare", "Fragrance", "Bath"],
+        "Toys": ["Action Figures", "Board Games", "Puzzles", "Plushies", "Drones"],
+        "Health & Fitness": ["Supplements", "Exercise Equipment", "Yoga", "Outdoor Gear", "Medical Supplies"],
+        "Food & Beverages": ["Snacks", "Beverages", "Grocery", "Health Foods", "Organic Products"],
+        "Jewelry": ["Rings", "Necklaces", "Bracelets", "Earrings", "Watches"],
+        "Pet Supplies": ["Dog Food", "Cat Food", "Toys", "Grooming", "Accessories"],
+        "Music & Instruments": ["Guitars", "Keyboards", "Drums", "Headphones", "Speakers"],
+        "Office Supplies": ["Pens", "Notebooks", "Desks", "Printers", "Paper"],
+        "Automotive": ["Car Parts", "Car Accessories", "Tools", "Cleaning Supplies", "Tires"],
+        "Baby Products": ["Diapers", "Strollers", "Toys", "Clothing", "Feeding"],
+        "Travel": ["Luggage", "Backpacks", "Travel Accessories", "Camping Gear", "Suitcases"],
+        "Photography": ["Cameras", "Lenses", "Tripods", "Camera Bags", "Studio Lighting"]       
+    }
+}
