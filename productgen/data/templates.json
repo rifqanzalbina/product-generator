@@ -1,0 +1,7 @@
+{
+    "product_name": "Generate a creative name for a {category} product by {brand}:",
+    "product_story": "Write a compelling story about the product named {product_name}:",
+    "features": "List the key features of {product_name} in the {category} category:",
+    "tagline": "Create a catchy tagline for {product_name}:",
+    "description": "Write a detailed description of {product_name}, highlighting its unique features and benefits:"
+}
