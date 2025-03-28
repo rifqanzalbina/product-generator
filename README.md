@@ -1,5 +1,7 @@
 # product generator
 
+<img src="https://github.com/user-attachments/assets/14837acb-b116-4a80-b158-2ebbc1c500b2" width="300" alt="PRoduct (1)">
+
 ## Install
 
 ```python
